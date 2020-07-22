@@ -1,9 +1,0 @@
-[submodule "vendor/huawei"]
-	path = vendor/huawei
-	url = http://github.com/Huawei/yang.git
-[submodule "vendor/fujitsu"]
-	path = vendor/fujitsu
-	url = https://github.com/FujitsuNetworkCommunications/FSS2-Yang.git
-[submodule "vendor/nokia"]
-	path = vendor/nokia
-	url = https://github.com/nokia/YangModels.git
