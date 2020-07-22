@@ -3176,17 +3176,19 @@ submodule Cisco-IOS-XE-ip {
                   leaf Tunnel {
                     description
                       "Active tunnel used for SIG";
-                    type leafref {
-                      path "/ios:native/ios:interface/ios:Tunnel/ios:name";
-                    }
+                    // type leafref {
+                    //   path "/ios:native/ios:interface/ios:Tunnel/ios:name";
+                    // }
+                    type string;
                   }
                   container backup {
                     leaf Tunnel {
                       description
                         "Backup tunnel used for SIG";
-                      type leafref {
-                        path "/ios:native/ios:interface/ios:Tunnel/ios:name";
-                      }
+                      // type leafref {
+                      //   path "/ios:native/ios:interface/ios:Tunnel/ios:name";
+                      // }
+                      type string;
                     }
                   }
                 }
